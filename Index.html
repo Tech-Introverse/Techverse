@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Introverse - Premium Tech News</title>
+
+<style>
+  /* Global Styling */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #FFD700, #FFB200, #E5A100);
+    color: #333;
+  }
+
+  /* HEADER */
+  header {
+    background: rgba(0, 0, 0, 0.75);
+    color: gold;
+    text-align: center;
+    padding: 25px 10px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 1px;
+  }
+
+  header p {
+    margin: 4px 0 0;
+    font-size: 15px;
+    opacity: 0.9;
+  }
+
+  /* Search Bar */
+  .search-box {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .search-box input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  }
+
+  /* Ad block */
+  .ad-box {
+    background: #fff7d1;
+    border: 2px dashed #b8860b;
+    padding: 12px;
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  /* NEWS GRID */
+  .news-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+  }
+
+  .news-card {
+    background: rgba(255,255,255,0.85);
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.3);
+    border-left: 5px solid gold;
+    backdrop-filter: blur(4px);
+    transition: 0.3s ease-in-out;
+  }
+
+  .news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.4);
+  }
+
+  .news-card h2 {
+    margin: 0 0 10px;
+    color: #3A2400;
+    font-size: 22px;
+  }
+
+  .news-card p {
+    font-size: 15px;
+    color: #444;
+  }
+
+  footer {
+    background: #3A2400;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    margin-top: 30px;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Tech Introverse</h1>
+  <p>Premium Tech News & Gadget Updates</p>
+</header>
+
+<!-- SEARCH BAR -->
+<div class="search-box">
+  <input type="text" placeholder="Search tech news...">
+</div>
+
+<!-- TOP AD -->
+<div class="ad-box">
+  Header Ad Slot (728×90)
+</div>
+
+<!-- NEWS GRID -->
+<div class="news-container">
+
+  <div class="news-card">
+    <h2>Welcome to Tech Introverse</h2>
+    <p>This is your premium tech news hub. Post daily tech updates here.</p>
+  </div>
+
+  <div class="news-card">
+    <h2>Latest Smartphone Launch</h2>
+    <p>Add your latest smartphone news here. This section auto-expands as you add more cards.</p>
+  </div>
+
+  <div class="news-card">
+    <h2>AI & Innovation Updates</h2>
+    <p>Write about AI, gadgets, leaks, processors, or any trending tech topic.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER AD -->
+<div class="ad-box">
+  Footer Ad Slot (728×90)
+</div>
+
+<footer>
+  © 2025 Tech Introverse • All Rights Reserved
+</footer>
+
+</body>
+</html>
